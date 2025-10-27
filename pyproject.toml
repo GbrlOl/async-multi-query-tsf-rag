@@ -5,9 +5,26 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "tsf-rag"
 version = "0.1.0"
-description = "AsyncMultiQuery TSF-RAG System"
+description = "AsyncMultiQuery TSF-RAG System for TSF Physical Stability Evaluation"
+readme = "README.md"
 authors = [{name = "Gabriel Olmos", email = "gabriel.olmos@pucv.cl"}]
+license = {text = "GPL-3.0-or-later"}
 requires-python = ">=3.10"
+keywords = ["Retrieval-augmented generation", "Large language model", "geotechnical", "tailings", "embedding"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/GbrlOl/async-multi-query-tsf-rag"
+"Bug Tracker" = "https://github.com/GbrlOl/async-multi-query-tsf-rag/issues"
+"Documentation" = "https://github.com/GbrlOl/async-multi-query-tsf-rag#readme"
 
 [tool.setuptools.packages.find]
 where = ["src"]
