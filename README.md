@@ -1,10 +1,12 @@
 # **AsyncMultiQuery TSF-RAG: A Retrieval System for the Evaluation of the Physical Stability of Tailings Storage Facilities in Chile**
 
+This repository contains all the codes needed to replicate the article. We recommend following the instructions for installation, initial configuration, etc.
+
 ## **Installation**
 
 ### **1. Clone the repository:**
 ```bash
-git clone https://github.com/[tu-usuario]/async-multi-query-tsf-rag.git
+git clone https://github.com/GbrlOl/async-multi-query-tsf-rag
 cd async-multi-query-tsf-rag
 ```
 
@@ -33,3 +35,9 @@ pip install -r requirements.txt
 ```bash
 pip install -e . --no-deps
 ```
+
+## **Initial Configuration**
+
+> [!WARNING]
+> You need to have an API Key from OpenAI (LLM) and Nomic (Embedding). Without these resources, the systems will not work.
+
