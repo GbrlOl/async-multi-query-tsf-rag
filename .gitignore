@@ -1,3 +1,4 @@
 .src/plots
 .env
 **__pycache__
+src/tsf_rag.egg-info
