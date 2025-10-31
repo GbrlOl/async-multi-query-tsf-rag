@@ -51,7 +51,15 @@ def auto_evaluation_rag(
             # Procesar datos
             try:
                 # rag_response = pipeline_rag.query(query) # Esta línea funciona para AsynMultiQuery RAG
-                rag_response, metadata = pipeline_rag.query(query)
+                # rag_response, metadata = pipeline_rag.query(query)
+
+                # Obtener el objeto Response
+                response_obj = pipeline_rag.query(query)
+
+                # Extraer la respuesta y metadata del objeto Response
+                rag_response = response_obj.response
+                metadata = response_obj.source_nodes  # o response_obj.metadata
+
                 llm_eval = llm_evaluador.evaluation(query, rag_response, reference)
             except Exception as e:
                 print(f"Error en {matriz_name} fila {j}: {e}")
