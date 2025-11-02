@@ -55,3 +55,5 @@ To do this in a simple and educational way, we will provide you with a notebook 
 * How to use RAG systems?
 * How can the experiments be replicated?
 
+> [!IMPORTANT]
+> Using API LLM (OpenAI) as an evaluator can generate variability in the response, even if we have temperature=0. Keep that in mind!
