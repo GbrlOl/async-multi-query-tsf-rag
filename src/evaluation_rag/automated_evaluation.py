@@ -54,11 +54,17 @@ def auto_evaluation_rag(
                 # rag_response, metadata = pipeline_rag.query(query)
 
                 # Obtener el objeto Response
-                response_obj = pipeline_rag.query(query)
+                result = pipeline_rag.query(query)
 
-                # Extraer la respuesta y metadata del objeto Response
-                rag_response = response_obj.response
-                metadata = response_obj.source_nodes  # o response_obj.metadata
+                # Verificar si es una tupla
+                if isinstance(result, tuple):
+                    # Caso: retorna (Response, metadata)
+                    rag_response = result[0].response
+                    metadata = result[1]
+                else:
+                    # Caso: retorna solo Response
+                    rag_response = result.response
+                    metadata = result.source_nodes  # o result.metadata
 
                 llm_eval = llm_evaluador.evaluation(query, rag_response, reference)
             except Exception as e:
