@@ -1,0 +1,128 @@
+{
+    "tipo_deposito": "deposito_ovalle_enami",
+    "matrices": {
+        "matriz_1": {
+            "parametro_1": {
+                "query": "¿Cuál es el tipo de depósito de relaves al que se refiere el estudio?",
+                "ground_truth": {
+                    "Ing. Detalle_Censurado.pdf": [
+                        "11",
+                        "12",
+                        "14",
+                        "16",
+                        "19",
+                        "24",
+                        "27",
+                        "47",
+                        "52",
+                        "53",
+                        "57",
+                        "113",
+                        "129"
+                    ],
+                    "Plan de Cierre  Planta Ovalle ENAMI - 2710-IC02-002  Rev 0_Censurado.pdf": [
+                        "5",
+                        "8",
+                        "63",
+                        "76",
+                        "81",
+                        "91",
+                        "106",
+                        "107"
+                    ]
+                }
+            }
+        },
+        "matriz_2": {
+            "parametro_2": {
+                "query": "¿Cuál es el ancho de coronamiento del muro de embalse?",
+                "ground_truth": {
+                    "Ing. Detalle_Censurado.pdf": [
+                        "47"
+                    ],
+                    "Plan de Cierre  Planta Ovalle ENAMI - 2710-IC02-002  Rev 0_Censurado.pdf": [
+                        "63"
+                    ]
+                }
+            },
+            "parametro_3": {
+                "query": "¿Cuál es la revancha del muro de embalse?",
+                "ground_truth": {
+                    "Ing. Detalle_Censurado.pdf": [
+                        "47"
+                    ],
+                    "Plan de Cierre  Planta Ovalle ENAMI - 2710-IC02-002  Rev 0_Censurado.pdf": [
+                        "63"
+                    ]
+                }
+            }
+        },
+        "matriz_4": {
+            "parametro_1": {
+                "query": "¿Se utilizaron antecedentes topográficos, hidrogeológicos, geológicos, geotécnicos y geofísicos para la caracterización del suelo de fundación?",
+                "ground_truth": {
+                    "Ing. Detalle_Censurado.pdf": [
+                        "26",
+                        "28",
+                        "7",
+                        "4"
+                    ],
+                    "Plan de Cierre  Planta Ovalle ENAMI - 2710-IC02-002  Rev 0_Censurado.pdf": [
+                        "42",
+                        "46"
+                    ]
+                }
+            }
+        },
+        "matriz_6": {
+            "parametro_1": {
+                "query": "¿El depósito es estable?",
+                "ground_truth": {
+                    "Ing. Detalle_Censurado.pdf": [
+                        "63",
+                        "113"
+                    ],
+                    "Plan de Cierre  Planta Ovalle ENAMI - 2710-IC02-002  Rev 0_Censurado.pdf": [
+                        "3",
+                        "48"
+                    ]
+                }
+            }
+        },
+        "matriz_7": {
+            "parametro_1": {
+                "query": "¿Se realizó un estudio sísmico específico para el proyecto?",
+                "ground_truth": {
+                    "Ing. Detalle_Censurado.pdf": [
+                        "62",
+                        "63"
+                    ],
+                    "Plan de Cierre  Planta Ovalle ENAMI - 2710-IC02-002  Rev 0_Censurado.pdf": [
+                        "48",
+                        "49",
+                        "50"
+                    ]
+                }
+            }
+        },
+        "matriz_8": {
+            "parametro_1": {
+                "query": "¿Se implementaron medidas para asegurar la estabilidad física del depósito de relaves en su etapa de cierre?",
+                "ground_truth": {
+                    "Ing. Detalle_Censurado.pdf": [
+                        "30",
+                        "47",
+                        "52",
+                        "53"
+                    ],
+                    "Plan de Cierre  Planta Ovalle ENAMI - 2710-IC02-002  Rev 0_Censurado.pdf": [
+                        "5",
+                        "91",
+                        "106",
+                        "107"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,215 @@
+{
+    "tipo_deposito": "deposito_taltal_luces",
+    "matrices": {
+        "matriz_1": {
+            "parametro_1": {
+                "query": "¿Cuál es el tipo de depósito de relaves al que se refiere el estudio?",
+                "ground_truth": {
+                    "Actualización-Plan de Cierre_Faena Taltal.pdf": [
+                        "6",
+                        "25",
+                        "28",
+                        "103",
+                        "106",
+                        "109",
+                        "134"
+                    ],
+                    "Disposición de relaves_Las Luces III-Ing Básica.pdf": [
+                        "1",
+                        "3",
+                        "15"
+                    ],
+                    "Informe-respuestas_Actualización Plan de Cierre.pdf": [
+                        "38",
+                        "49"
+                    ],
+                    "Permiso sectorial_Actualización y modicacion_Las Luces.pdf": [
+                        "13",
+                        "14",
+                        "16",
+                        "22",
+                        "48",
+                        "50",
+                        "113",
+                        "120"
+                    ]
+                }
+            }
+        },
+        "matriz_2": {
+            "parametro_1": {
+                "query": "¿Cuál es la altura del muro de confinamiento?",
+                "ground_truth": {
+                    "Disposición de relaves_Las Luces III-Ing Básica.pdf": [
+                        "13"
+                    ],
+                    "Permiso sectorial_Actualización y modicacion_Las Luces.pdf": [
+                        "14",
+                        "16",
+                        "22",
+                        "177",
+                        "181"
+                    ]
+                }
+            },
+            "parametro_2": {
+                "query": "¿Cuál es el ancho del coronamiento del muro de confinamiento?",
+                "ground_truth": {
+                    "Disposición de relaves_Las Luces III-Ing Básica.pdf": [
+                        "4"
+                    ],
+                    "Permiso sectorial_Actualización y modicacion_Las Luces.pdf": [
+                        "20",
+                        "71",
+                        "134",
+                        "140",
+                        "180",
+                        "209"
+                    ]
+                }
+            },
+            "parametro_3": {
+                "query": "¿Cuál es la revancha del muro de confinamiento?",
+                "ground_truth": {
+                    "Disposición de relaves_Las Luces III-Ing Básica.pdf": [
+                        "6",
+                        "16"
+                    ],
+                    "Permiso sectorial_Actualización y modicacion_Las Luces.pdf": [
+                        "71",
+                        "90",
+                        "136",
+                        "156",
+                        "209"
+                    ]
+                }
+            },
+            "parametro_4": {
+                "query": "¿Cuál es el ángulo del talud externo del muro de confinamiento?",
+                "ground_truth": {
+                    "Disposición de relaves_Las Luces III-Ing Básica.pdf": [
+                        "4"
+                    ],
+                    "Permiso sectorial_Actualización y modicacion_Las Luces.pdf": [
+                        "20",
+                        "70",
+                        "134",
+                        "180",
+                        "209"
+                    ]
+                }
+            },
+            "parametro_5": {
+                "query": "¿Cuál es la altura del depósito?",
+                "ground_truth": {
+                    "Disposición de relaves_Las Luces III-Ing Básica.pdf": [
+                        "13"
+                    ],
+                    "Permiso sectorial_Actualización y modicacion_Las Luces.pdf": [
+                        "14",
+                        "16",
+                        "22",
+                        "177",
+                        "181"
+                    ]
+                }
+            }
+        },
+        "matriz_4": {
+            "parametro_1": {
+                "query": "¿Se utilizaron antecedentes topográficos, hidrogeológicos, geológicos, geotécnicos y geofísicos para la caracterización del suelo de fundación?",
+                "ground_truth": {
+                    "Actualización-Plan de Cierre_Faena Taltal.pdf": [
+                        "41"
+                    ],
+                    "Disposición de relaves_Las Luces III-Ing Básica.pdf": [
+                        "15",
+                        "12"
+                    ],
+                    "Permiso sectorial_Actualización y modicacion_Las Luces.pdf": [
+                        "46",
+                        "48",
+                        "50",
+                        "65",
+                        "68"
+                    ]
+                }
+            }
+        },
+        "matriz_6": {
+            "parametro_1": {
+                "query": "¿El depósito es estable?",
+                "ground_truth": {
+                    "Disposición de relaves_Las Luces III-Ing Básica.pdf": [
+                        "15",
+                        "17"
+                    ],
+                    "Permiso sectorial_Actualización y modicacion_Las Luces.pdf": [
+                        "64",
+                        "65",
+                        "68"
+                    ]
+                }
+            }
+        },
+        "matriz_7": {
+            "parametro_1": {
+                "query": "¿Se realizó un estudio sísmico específico para el proyecto?",
+                "ground_truth": {
+                    "Actualización-Plan de Cierre_Faena Taltal.pdf": [
+                        "44"
+                    ],
+                    "Disposición de relaves_Las Luces III-Ing Básica.pdf": [
+                        "14",
+                        "15",
+                        "17"
+                    ],
+                    "Permiso sectorial_Actualización y modicacion_Las Luces.pdf": [
+                        "64",
+                        "65",
+                        "66",
+                        "67",
+                        "68"
+                    ]
+                }
+            },
+            "parametro_2": {
+                "query": "¿Cuál es el período de retorno utilizado en el estudio hidrológico del depósito?",
+                "ground_truth": {
+                    "Disposición de relaves_Las Luces III-Ing Básica.pdf": [
+                        "8"
+                    ],
+                    "Permiso sectorial_Actualización y modicacion_Las Luces.pdf": [
+                        "50",
+                        "74",
+                        "75",
+                        "76",
+                        "77"
+                    ]
+                }
+            }
+        },
+        "matriz_8": {
+            "parametro_1": {
+                "query": "¿Se implementaron medidas para asegurar la estabilidad física del depósito de relaves en su etapa de cierre?",
+                "ground_truth": {
+                    "Actualización-Plan de Cierre_Faena Taltal.pdf": [
+                        "118"
+                    ],
+                    "Informe-respuestas_Actualización Plan de Cierre.pdf": [
+                        "54"
+                    ],
+                    "Permiso sectorial_Actualización y modicacion_Las Luces.pdf": [
+                        "151",
+                        "152",
+                        "153",
+                        "154",
+                        "155",
+                        "156",
+                        "157"
+                    ]
+                }
+            }
+        }
+    }
+}

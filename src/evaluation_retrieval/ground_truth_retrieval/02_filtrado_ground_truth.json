@@ -1,0 +1,272 @@
+{
+    "tipo_deposito": "deposito_relaves_filtrado",
+    "matrices": {
+        "matriz_1": {
+            "parametro_1": {
+                "query": "¿Cuál es el tipo de depósito de relaves al que se refiere el estudio?",
+                "ground_truth": {
+                    "Plan de Cierre_Procedimiento Aplicación General_Kozan.pdf": [
+                        "4",
+                        "6",
+                        "7",
+                        "38",
+                        "44",
+                        "48",
+                        "49",
+                        "51",
+                        "76",
+                        "79",
+                        "80",
+                        "94",
+                        "172",
+                        "178",
+                        "188",
+                        "191",
+                        "193",
+                        "195",
+                        "196",
+                        "199",
+                        "201",
+                        "259",
+                        "262",
+                        "264",
+                        "289",
+                        "291",
+                        "293",
+                        "294",
+                        "295",
+                        "308"
+                    ],
+                    "PERMISO DEPOSITO RELAVES.pdf": [
+                        "1",
+                        "13",
+                        "14",
+                        "17",
+                        "35",
+                        "46",
+                        "52",
+                        "102",
+                        "103",
+                        "105",
+                        "116",
+                        "118",
+                        "119",
+                        "120",
+                        "125",
+                        "152",
+                        "161",
+                        "162",
+                        "169",
+                        "170",
+                        "171",
+                        "172",
+                        "173",
+                        "174",
+                        "191"
+                    ],
+                    "RCA 109 - 2018.pdf": [
+                        "6",
+                        "56",
+                        "57",
+                        "58"
+                    ]
+                }
+            }
+        },
+        "matriz_2": {
+            "parametro_1": {
+                "query": "¿Cuál es la altura del muro de confinamiento del depósito de relaves?",
+                "ground_truth": {
+                    "Plan de Cierre_Procedimiento Aplicación General_Kozan.pdf": [
+                        "189"
+                    ],
+                    "PERMISO DEPOSITO RELAVES.pdf": [
+                        "118"
+                    ],
+                    "RCA 109 - 2018.pdf": [
+                        "6"
+                    ]
+                }
+            },
+            "parametro_2": {
+                "query": "¿Cuál es la altura máxima del depósito de relaves filtrado?",
+                "ground_truth": {
+                    "Plan de Cierre_Procedimiento Aplicación General_Kozan.pdf": [
+                        "189"
+                    ],
+                    "PERMISO DEPOSITO RELAVES.pdf": [
+                        "118"
+                    ],
+                    "RCA 109 - 2018.pdf": [
+                        "6"
+                    ]
+                }
+            },
+            "parametro_4": {
+                "query": "¿Cuál es el ángulo del talud del muro de pie del depósito de relaves filtrado?",
+                "ground_truth": {
+                    "Plan de Cierre_Procedimiento Aplicación General_Kozan.pdf": [
+                        "189"
+                    ],
+                    "PERMISO DEPOSITO RELAVES.pdf": [
+                        "118"
+                    ],
+                    "RCA 109 - 2018.pdf": [
+                        "6"
+                    ]
+                }
+            },
+            "parametro_5": {
+                "query": "¿Cuál es la altura máxima del depósito de relaves filtrado?",
+                "ground_truth": {
+                    "Plan de Cierre_Procedimiento Aplicación General_Kozan.pdf": [
+                        "189"
+                    ],
+                    "PERMISO DEPOSITO RELAVES.pdf": [
+                        "118"
+                    ],
+                    "RCA 109 - 2018.pdf": [
+                        "6"
+                    ]
+                }
+            },
+            "parametro_6": {
+                "query": "¿Cuál es el ángulo del talud total de la minera?",
+                "ground_truth": {
+                    "PERMISO DEPOSITO RELAVES.pdf": [
+                        "117"
+                    ]
+                }
+            },
+            "parametro_7": {
+                "query": "¿Cuántas unidades de bancos o terrazas tiene el depósito de relaves filtrado?",
+                "ground_truth": {
+                    "Plan de Cierre_Procedimiento Aplicación General_Kozan.pdf": [
+                        "80",
+                        "188",
+                        "262"
+                    ],
+                    "PERMISO DEPOSITO RELAVES.pdf": [
+                        "35",
+                        "116",
+                        "117",
+                        "164",
+                        "170"
+                    ],
+                    "RCA 109 - 2018.pdf": [
+                        "6"
+                    ]
+                }
+            },
+            "parametro_7_1": {
+                "query": "¿Cuál es la altura de cada banco o terraza del depósito de relaves filtrado?",
+                "ground_truth": {
+                    "Plan de Cierre_Procedimiento Aplicación General_Kozan.pdf": [
+                        "80",
+                        "188",
+                        "262"
+                    ],
+                    "PERMISO DEPOSITO RELAVES.pdf": [
+                        "117",
+                        "17"
+                    ]
+                }
+            },
+            "parametro_7_2": {
+                "query": "¿Cuál es el ángulo de la terraza del depósito de relaves filtrado?",
+                "ground_truth": {
+                    "PERMISO DEPOSITO RELAVES.pdf": [
+                        "117"
+                    ]
+                }
+            },
+            "parametro_7_3": {
+                "query": "¿Cuál es el ancho de berma de las terrazas/bancos del depósito de relaves?",
+                "ground_truth": {
+                    "Plan de Cierre_Procedimiento Aplicación General_Kozan.pdf": [
+                        "188",
+                        "262"
+                    ],
+                    "PERMISO DEPOSITO RELAVES.pdf": [
+                        "117"
+                    ]
+                }
+            }
+        },
+        "matriz_4": {
+            "parametro_1": {
+                "query": "¿Para la caracterización del suelo de fundación se emplearon antecedentes topográficos, hidrogeológicos, geológicos, geotécnicos y geofísicos?",
+                "ground_truth": {
+                    "Estudio de Estabilidad Estatica y Pseudoestatica.pdf": [
+                        "16"
+                    ]
+                }
+            }
+        },
+        "matriz_6": {
+            "parametro_1": {
+                "query": "¿El depósito es estable?",
+                "ground_truth": {
+                    "Plan de Cierre_Procedimiento Aplicación General_Kozan.pdf": [
+                        "137",
+                        "138",
+                        "169",
+                        "170",
+                        "202"
+                    ]
+                }
+            }
+        },
+        "matriz_7": {
+            "parametro_1": {
+                "query": "¿Se realizó un estudio sísmico específico para el proyecto del depósito de relaves?",
+                "ground_truth": {
+                    "Plan de Cierre_Procedimiento Aplicación General_Kozan.pdf": [
+                        "135"
+                    ],
+                    "PERMISO DEPOSITO RELAVES.pdf": [
+                        "78",
+                        "138"
+                    ]
+                }
+            },
+            "parametro_2": {
+                "query": "¿Qué estudio hidrológico se realizó para el depósito?",
+                "ground_truth": {
+                    "Plan de Cierre_Procedimiento Aplicación General_Kozan.pdf": [
+                        "174",
+                        "175"
+                    ],
+                    "PERMISO DEPOSITO RELAVES.pdf": [
+                        "70",
+                        "71",
+                        "72"
+                    ]
+                }
+            }
+        },
+        "matriz_8": {
+            "parametro_1": {
+                "query": "¿Se implementaron medidas para asegurar la estabilidad física del depósito de relaves en la etapa de cierre?",
+                "ground_truth": {
+                    "Plan de Cierre_Procedimiento Aplicación General_Kozan.pdf": [
+                        "182",
+                        "193",
+                        "196",
+                        "197"
+                    ],
+                    "PERMISO DEPOSITO RELAVES.pdf": [
+                        "197"
+                    ],
+                    "RCA 109 - 2018.pdf": [
+                        "7",
+                        "10",
+                        "11",
+                        "56",
+                        "83"
+                    ]
+                }
+            }
+        }
+    }
+}
