@@ -58,15 +58,15 @@ To do this in a simple and educational way, we will provide you with a notebook 
 > [!IMPORTANT]
 > Using API LLM (OpenAI) as an evaluator can generate variability in the response, even if we have temperature=0. Keep that in mind!
 
-# Cite
+# **Citation** 
 
 ```bibtex
-@unknown{unknown,
-author = {Olmos, Gabriel and Villavicencio, Gabriel and Hermosilla, Gabriel and Cocca-Guardia, Giovanni and Silva, Manuel and Minatogawa, Vinicius and Breul, Pierre},
-year = {2026},
-month = {01},
-pages = {},
-title = {AsyncMultiQuery TSF-RAG: Improving Retrieval Robustness in Spanish Technical Reports for Tailings Storage Facility Physical Stability Evaluation},
-doi = {10.2139/ssrn.6319515}
+@misc{olmos2026asyncmultiquery,
+  title        = {AsyncMultiQuery TSF-RAG: Improving Retrieval Robustness in Spanish Technical Reports for Tailings Storage Facility Physical Stability Evaluation},
+  author       = {Olmos, Gabriel and Villavicencio, Gabriel and Hermosilla, Gabriel and Cocca-Guardia, Giovanni and Silva, Manuel and Minatogawa, Vinicius and Breul, Pierre},
+  year         = {2026},
+  note         = {Preprint},
+  doi          = {10.2139/ssrn.6319515},
+  url          = {https://doi.org/10.2139/ssrn.6319515}
 }
 ```
