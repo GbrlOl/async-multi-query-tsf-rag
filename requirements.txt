@@ -1,0 +1,9 @@
+llama-index==0.12.28
+langchain==0.3.25
+langchain_openai==0.3.12
+faiss-cpu==1.11.0
+llama-index-vector-stores-faiss==0.3.0
+llama-index-embeddings-huggingface==0.4.0
+llama-index-llms-openai==0.4.3
+llama-index-embeddings-nomic==0.6.0
+python-dotenv==1.1.0
