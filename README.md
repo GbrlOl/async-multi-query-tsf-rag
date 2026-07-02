@@ -61,12 +61,16 @@ To do this in a simple and educational way, we will provide you with a notebook 
 # **Citation** 
 
 ```bibtex
-@misc{olmos2026asyncmultiquery,
-  title        = {AsyncMultiQuery TSF-RAG: Improving Retrieval Robustness in Spanish Technical Reports for Tailings Storage Facility Physical Stability Evaluation},
-  author       = {Olmos, Gabriel and Villavicencio, Gabriel and Hermosilla, Gabriel and Cocca-Guardia, Giovanni and Silva, Manuel and Minatogawa, Vinicius and Breul, Pierre},
-  year         = {2026},
-  note         = {Preprint},
-  doi          = {10.2139/ssrn.6319515},
-  url          = {https://doi.org/10.2139/ssrn.6319515}
+@article{OLMOS2026133465,
+title = {AsyncMultiQuery TSF-RAG: Improving Retrieval Robustness in Spanish Technical Reports for Tailings Storage Facility Physical Stability Evaluation},
+journal = {Expert Systems with Applications},
+pages = {133465},
+year = {2026},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2026.133465},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417426023742},
+author = {Gabriel Olmos and Gabriel Villavicencio and Gabriel Hermosilla and Giovanni Cocca-Guardia and Manuel Silva and Vinicius Minatogawa and Pierre Breul},
+keywords = {Retrieval-augmented generation, Embeddings, Large language model, Tailings storage facilities, Physical stability},
+abstract = {Physical stability assessment of tailings storage facilities (TSFs) requires locating critical parameters in long and heterogeneous technical reports, a task currently performed manually in Chilean regulatory inspection workflows. Although Retrieval-Augmented Generation (RAG) systems can support technical document search, their performance is strongly affected by the retrieval stage, especially in specialized Spanish documentation. This study proposes AsyncMultiQuery TSF-RAG, a RAG system that generates multiple query reformulations and processes them asynchronously using different embedding models to improve retrieval robustness. The system was evaluated using 29 real Chilean mining reports covering five TSF typologies and 1,949 pages, with expert-validated ground truths for embedding retrieval and RAG response evaluation. Results show that standalone embedding models achieved low retrieval performance, with a maximum F1 Score of 0.2035. In the expert-validated evaluation, AsyncMultiQuery TSF-RAG achieved success rates between 66.67% and 75%, reducing complete parameter search time from 420–600 minutes to 5.62–11.35 minutes. These findings position AsyncMultiQuery TSF-RAG as a viable support tool for expert systems in regulatory auditing workflows.}
 }
 ```
